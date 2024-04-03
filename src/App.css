@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,300&display=swap');
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url('assest/Book.jpg') center/cover no-repeat;
+
+  font-family: 'Poppins', sans-serif;
+  gap: 1rem;
+  color:white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Pacifico', cursive;
+  color: #fc8c0c;
+  margin: 0;
+  stroke:aliceblue ;
+  -webkit-text-stroke-width: 1px;
+  letter-spacing:6px;
+  -webkit-text-stroke-color: red;
+}
+
+h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  margin: 0;
+}
+
+h4 {
+  color: #22ff00;
+  margin: 0;
+}
+
+input {
+  width: 40vw;
+  height: 38px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding-left:5px;
+}
+
+.searchBox>button {
+  background-color: #4DB33D;
+  height: 38px;
+  border-radius: 5px;
+  width: 60px;
+  border: none;
+  color: white;
+  box-shadow: 0px 3px 2px #439e34;
+  cursor: pointer;
+  padding: 0;
+  margin-left:5px;
+}
+
+.showResults {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.showResults>h2>button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.showResults>p {
+  margin: 5px 0px;
+}
